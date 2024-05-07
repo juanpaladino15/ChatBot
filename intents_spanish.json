@@ -1,0 +1,390 @@
+{
+    "intents": [
+        {
+            "tag": "compra",
+            "patterns": [
+                "quiero comprar algo",
+                "Busco una prenda",
+                "Quiero hacer un pedido",
+                "Necesito adquirir algo",
+                "Estoy interesado en comprar ropa",
+                "¿Qué prendas venden aquí?",
+                "Me gustaría hacer una compra"
+            ],
+            "responses": [
+                "Genial! ¿En qué tipo de prenda estás interesado?",
+                "¡Claro! ¿Qué estilo de ropa estás buscando?"
+            ]
+        },
+        {
+            "tag": "informacion_producto",
+            "patterns": [
+                "¿Qué características tiene esta prenda?",
+                "Dime más sobre esta prenda",
+                "Necesito información sobre esta prenda",
+                "¿Puedes decirme más sobre este artículo?",
+                "¿Qué incluye esta prenda?",
+                "¿Qué detalles tiene este artículo?"
+            ],
+            "responses": [
+                "Claro, aquí tienes la información que necesitas:",
+                "Estas son las características de la prenda:"
+            ]
+        },
+        {
+            "tag": "precios",
+            "patterns": [
+                "¿Cuánto cuesta?",
+                "¿Hay algún descuento?",
+                "¿Puedes darme el precio?",
+                "¿Cuál es el costo?",
+                "¿Cuánto debo pagar?",
+                "¿Tiene un precio específico?",
+                "¿A cuánto está?",
+                "¿Cuál es el valor?"
+            ],
+            "responses": [
+                "El precio es $X",
+                "Actualmente tenemos un descuento del X%",
+                "Puedes obtenerlo por solo $X"
+            ]
+        },
+        {
+            "tag": "envio",
+            "patterns": [
+                "¿Cuánto tiempo tarda en llegar?",
+                "¿Qué métodos de envío ofrecen?",
+                "¿Cuál es el costo de envío?",
+                "¿Hacen envíos internacionales?",
+                "¿Cuánto demora el envío?",
+                "¿Puedo rastrear mi pedido?",
+                "¿Cuál es el tiempo estimado de entrega?"
+            ],
+            "responses": [
+                "El tiempo de entrega suele ser de X días hábiles",
+                "Ofrecemos envío estándar y express",
+                "El costo de envío es de $X"
+            ]
+        },
+        {
+            "tag": "pagos",
+            "patterns": [
+                "¿Qué métodos de pago aceptan?",
+                "¿Hay cuotas sin interés?",
+                "¿Puedo pagar en efectivo?",
+                "¿Aceptan tarjeta de crédito?",
+                "¿Cuál es el plazo para pagar?",
+                "¿Puedo dividir el pago?",
+                "¿Cómo puedo cancelar?"
+            ],
+            "responses": [
+                "Aceptamos tarjetas de crédito, débito, PayPal y transferencia bancaria",
+                "Sí, puedes pagar en X cuotas sin interés",
+                "Actualmente no aceptamos pagos en efectivo"
+            ]
+        },
+        {
+            "tag": "devoluciones",
+            "patterns": [
+                "¿Cuál es su política de devoluciones?",
+                "¿Qué hago si quiero devolver una prenda?",
+                "Quiero hacer una devolución",
+                "¿Puedo cambiar mi pedido?",
+                "¿Cuánto tiempo tengo para devolver?",
+                "¿Cuál es el proceso de devolución?",
+                "¿Cómo puedo solicitar un reembolso?"
+            ],
+            "responses": [
+                "Nuestra política de devoluciones permite devoluciones dentro de X días después de la compra",
+                "Por favor, contáctanos para iniciar el proceso de devolución",
+                "Entendido, ¿puedes proporcionarnos el número de pedido para iniciar la devolución?"
+            ]
+        },
+        {
+            "tag": "atencion_cliente",
+            "patterns": [
+                "Necesito ayuda con mi pedido",
+                "¿Pueden ayudarme con un problema?",
+                "Tengo una pregunta sobre una prenda",
+                "¿Puedes asistirme con algo?",
+                "¿En qué me puedes ayudar hoy?",
+                "¿Cuál es el procedimiento para contactar al servicio al cliente?",
+                "¿Pueden resolver un inconveniente que tengo?"
+            ],
+            "responses": [
+                "Estoy aquí para ayudarte, ¿en qué puedo asistirte?",
+                "Por supuesto, ¿cuál es tu pregunta?",
+                "Dime qué necesitas y haré todo lo posible por ayudarte."
+            ]
+        },
+        {
+            "tag": "cupones_descuento",
+            "patterns": [
+                "¿Tienen cupones de descuento disponibles?",
+                "¿Cómo puedo obtener un cupón de descuento?",
+                "Quiero aplicar un cupón",
+                "¿Puedo usar un cupón aquí?",
+                "¿Cuándo hay promociones?",
+                "¿Cuál es el código del cupón actual?",
+                "¿Hay ofertas disponibles?"
+            ],
+            "responses": [
+                "Sí, a veces ofrecemos cupones de descuento especiales. Te recomiendo estar atento a nuestras promociones",
+                "Puedes suscribirte a nuestra lista de correo para recibir informacion"
+            ]
+        },
+        {
+            "tag": "seguridad_pago",
+            "patterns": [
+                "¿Es seguro ingresar mis datos de pago?",
+                "¿Cómo protegen mi información de pago?",
+                "¿Qué medidas de seguridad tienen para los pagos?"
+            ],
+            "responses": [
+                "Garantizamos la seguridad de tus datos de pago utilizando cifrado SSL",
+                "Nuestra plataforma de pago cumple con los estándares de seguridad PCI-DSS",
+                "Puedes estar tranquilo/a, tus datos están protegidos"
+            ]
+        },
+        {
+            "tag": "productos_populares",
+            "patterns": [
+                "¿Cuáles son sus productos más populares?",
+                "¿Qué recomiendan comprar?",
+                "¿Qué productos son los más vendidos?"
+            ],
+            "responses": [
+                "Nuestros productos más populares incluyen X, Y y Z",
+                "Te recomiendo nuestro producto X, es muy popular entre nuestros clientes",
+                "Echa un vistazo a nuestra sección de 'Lo más vendido' para ver nuestros productos más populares"
+            ]
+        },
+        {
+            "tag": "tallas_disponibles",
+            "patterns": [
+                "¿Tienen todas las tallas disponibles?",
+                "¿Qué tallas tienen en stock?",
+                "¿Puedo encontrar mi talla?"
+            ],
+            "responses": [
+                "Nuestro stock de tallas varía según el producto, por favor, revisa la disponibilidad en la página del producto",
+                "Tenemos una amplia gama de tallas disponibles, desde XS hasta XXL",
+                "Intentaremos tener tu talla disponible, pero te recomiendo que revises la disponibilidad en nuestra página web"
+            ]
+        },
+        {
+            "tag": "rastreo_envio",
+            "patterns": [
+                "¿Cómo puedo rastrear mi pedido?",
+                "¿Dónde está mi paquete?",
+                "Quiero saber el estado de mi envío"
+            ],
+            "responses": [
+                "Puedes rastrear tu pedido ingresando el número de seguimiento en nuestra página de seguimiento",
+                "El estado de tu envío es: en tránsito",
+                "Aquí tienes el enlace para rastrear tu pedido: [enlace]"
+            ]
+        },
+        {
+            "tag": "compatibilidad_producto",
+            "patterns": [
+                "¿Este producto es compatible con X?",
+                "¿Funciona este producto con Y?",
+                "¿Es compatible este accesorio con mi dispositivo?"
+            ],
+            "responses": [
+                "Sí, este producto es compatible con X",
+                "Lo siento, este producto no es compatible con Y",
+                "Por favor, consulta la sección de especificaciones del producto para verificar la compatibilidad"
+            ]
+        },
+        {
+            "tag": "ofertas_especiales",
+            "patterns": [
+                "¿Tienen ofertas especiales?",
+                "¿Qué promociones tienen disponibles?",
+                "¿Hay descuentos por tiempo limitado?"
+            ],
+            "responses": [
+                "Sí, actualmente tenemos una oferta especial: [descripción de la oferta]",
+                "Te recomiendo revisar nuestra sección de ofertas especiales para ver todas las promociones disponibles",
+                "No te pierdas nuestras ofertas por tiempo limitado, ¡visita nuestra página de ofertas ahora mismo!"
+            ]
+        },
+        {
+            "tag": "instalacion_producto",
+            "patterns": [
+                "¿Cómo instalo este producto?",
+                "¿Hay alguna guía de instalación disponible?",
+                "Necesito ayuda para instalar este producto"
+            ],
+            "responses": [
+                "Por supuesto, aquí tienes una guía de instalación detallada:",
+                "Te recomiendo seguir estos pasos para instalar correctamente el producto:",
+                "Si necesitas ayuda adicional, no dudes en contactarnos."
+            ]
+        },
+        {
+            "tag": "disponibilidad_stock",
+            "patterns": [
+                "¿Tienen este producto en stock?",
+                "¿Puedo comprar este producto ahora mismo?",
+                "¿Cuántas unidades tienen disponibles?"
+            ],
+            "responses": [
+                "Sí, tenemos este producto en stock y listo para enviar",
+                "Nuestro stock se actualiza regularmente, puedes comprar con confianza",
+                "Actualmente tenemos X unidades disponibles"
+            ]
+        },
+        {
+            "tag": "informacion_envio_internacional",
+            "patterns": [
+                "¿Envían internacionalmente?",
+                "¿Cuánto cuesta el envío internacional?",
+                "¿Qué países cubren con el envío?"
+            ],
+            "responses": [
+                "Sí, realizamos envíos internacionales a la mayoría de los países",
+                "El costo de envío internacional varía según el destino y el peso del paquete",
+                "Consulta nuestra página de envíos internacionales para obtener más información"
+            ]
+        },
+        {
+            "tag": "garantia_producto",
+            "patterns": [
+                "¿Qué tipo de garantía tiene este producto?",
+                "¿Cuánto dura la garantía?",
+                "¿Cómo puedo hacer valer la garantía?"
+            ],
+            "responses": [
+                "Este producto viene con una garantía de X años",
+                "Nuestra garantía cubre defectos de fabricación y problemas de funcionamiento",
+                "Para hacer valer la garantía, simplemente contáctanos con tu número de pedido y detalles del problema"
+            ]
+        },
+        {
+            "tag": "valoraciones_cliente",
+            "patterns": [
+                "¿Qué opinan los clientes sobre este producto?",
+                "¿Tienen valoraciones de clientes?",
+                "¿Cómo califican los usuarios este producto?"
+            ],
+            "responses": [
+                "Nuestros clientes han dado una calificación promedio de X estrellas para este producto",
+                "Puedes ver las opiniones de nuestros clientes en la sección de valoraciones del producto",
+                "Nuestros clientes están muy satisfechos con este producto, ¡echa un vistazo a sus opiniones!"
+            ]
+        },
+        {
+            "tag": "cancelacion_pedido",
+            "patterns": [
+                "¿Puedo cancelar mi pedido?",
+                "¿Cuál es el proceso para cancelar un pedido?",
+                "Quiero cancelar mi pedido"
+            ],
+            "responses": [
+                "Puedes cancelar tu pedido antes de que sea enviado",
+                "Para cancelar un pedido, contáctanos lo antes posible con tu número de pedido",
+                "Entendido, tu pedido ha sido cancelado. ¿Hay algo más en lo que pueda ayudarte?"
+            ]
+        },
+        {
+            "tag": "satisfaccion_cliente",
+            "patterns": [
+                "¿Cómo puedo dejar mi opinión sobre mi experiencia de compra?",
+                "¿Dónde puedo calificar su servicio?",
+                "¿Tienen alguna encuesta de satisfacción del cliente?"
+            ],
+            "responses": [
+                "Nos encantaría escuchar tu opinión sobre tu experiencia de compra",
+                "Puedes dejar una reseña en nuestra página de productos o en nuestras redes sociales",
+                "Participa en nuestra encuesta de satisfacción del cliente para ayudarnos a mejorar nuestros servicios"
+            ]
+        },
+        {
+            "tag": "ayuda_tecnica",
+            "patterns": [
+                "Necesito ayuda técnica con un producto",
+                "¿Pueden ayudarme con problemas técnicos?",
+                "Tengo dificultades para configurar el producto"
+            ],
+            "responses": [
+                "Estamos aquí para ayudarte con cualquier problema técnico que puedas tener",
+                "Por favor, descríbenos el problema y haremos todo lo posible para resolverlo",
+                "Te guiaremos paso a paso para resolver cualquier problema técnico que encuentres"
+            ]
+        },
+        {
+            "tag": "informacion_facturacion",
+            "patterns": [
+                "¿Puedo obtener una factura?",
+                "¿Cómo obtengo una factura de mi compra?",
+                "Necesito una factura para mi pedido"
+            ],
+            "responses": [
+                "Por supuesto, puedes descargar tu factura desde tu cuenta en la sección de historial de pedidos",
+                "La factura se enviará a tu correo electrónico después de realizar la compra",
+                "Si necesitas ayuda con la factura, no dudes en contactarnos"
+            ]
+        },
+        {
+            "tag": "programa_fidelidad",
+            "patterns": [
+                "¿Tienen algún programa de fidelidad?",
+                "¿Cómo puedo unirme al programa de fidelidad?",
+                "¿Cuáles son los beneficios del programa de fidelidad?"
+            ],
+            "responses": [
+                "Sí, tenemos un programa de fidelidad que recompensa a nuestros clientes frecuentes",
+                "Puedes unirte al programa de fidelidad registrándote en nuestra página web",
+                "Los miembros del programa de fidelidad disfrutan de descuentos exclusivos, ofertas especiales y más"
+            ]
+        },
+        {
+            "tag": "saludos",
+            "patterns": [
+                "Hola",
+                "¡Buenos días!",
+                "¿Cómo estás?",
+                "Hola, ¿en qué puedo ayudarte?"
+            ],
+            "responses": [
+                "¡Hola!",
+                "Buenos días, ¿en qué puedo ayudarte hoy?",
+                "¡Hola! Estoy aquí para ayudarte, ¿qué necesitas?",
+                "Hola, ¿cómo puedo asistirte hoy?"
+            ]
+        },
+        {
+            "tag": "despedidas",
+            "patterns": [
+                "Adiós",
+                "¡Hasta luego!",
+                "Nos vemos",
+                "¡Que tengas un buen día!"
+            ],
+            "responses": [
+                "¡Adiós!",
+                "Hasta luego, ¡que tengas un excelente día!",
+                "Nos vemos pronto, ¡que tengas un buen día!",
+                "Que tengas un día fantástico, ¡hasta pronto!"
+            ]
+        },
+        {
+            "tag": "agradecimientos",
+            "patterns": [
+                "Gracias",
+                "¡Muchas gracias!",
+                "¡Te agradezco!",
+                "¡Excelente ayuda!"
+            ],
+            "responses": [
+                "¡De nada! Si necesitas algo más, no dudes en decírmelo.",
+                "¡Gracias a ti por tu amabilidad!",
+                "Estoy aquí para ayudar, ¡no dudes en preguntar si necesitas algo más!",
+                "¡Me alegra haber sido útil! Si necesitas más ayuda, no dudes en decirlo."
+            ]
+        }
+    ]
+}
